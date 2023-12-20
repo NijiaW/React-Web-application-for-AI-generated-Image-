@@ -1,10 +1,10 @@
-#  React Web Application for AI-Driven Image Generation from Text Input
+#  React Web Application with AI-Driven Image Generation from Text Input
 
-This project is a react web application that is powered by a state-of-the-art Stable Diffusion Model using React and the Hugging Face API for generating images from text. 
 
 ## Purpose
 
- To build a free AI Image generation tool for people to generate cool images from text. 
+This project is a React-based web application that offers a full suite of web components.
+This application is integrated with a state-of-the-art Stable Diffusion Model to enable AI-driven image generation from user-defined keywords or phrases. The Stable Diffusion Model is wrapped into a Docker image and deployed as an AWS Lambda function to work as the backend. It is available through an AWS REST API endpoint. 
 
-## User interface : text-to-image model
-![Alt text](panda.png "Example")
+## User interface:
+![Alt text](snapshot.png "Example")
