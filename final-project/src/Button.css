@@ -1,0 +1,47 @@
+.button{
+    color: var(--font__color);
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link{
+    background: none;
+    border: none;
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size:large;
+}
+
+.link:active {
+    transform: scale(0.95); /* Slightly scale down the button */
+}
+
+button{
+    margin-top: auto;
+}
+
+.subscribe_button{
+    margin-left: unset;
+    margin-right: unset;
+    width: unset;
+    grid-column: span 6;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    font-size: 1.2 rem;
+    border-radius:1rem ;
+    color:var(--font__color);
+}
+
+.cancel_button{
+    margin-left: unset;
+    margin-right: unset;
+    width: unset;
+    grid-column: span 6;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    font-size: 1.2 rem;
+    border-radius:1rem ;
+    color: var(--font__color);
+}
